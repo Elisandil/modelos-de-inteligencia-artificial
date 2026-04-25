@@ -1,0 +1,4 @@
+spacy>=3.7.0
+aiosqlite>=0.20.0
+# Tras instalar las dependencias, descargar el modelo de lenguaje:
+# python -m spacy download en_core_web_sm
