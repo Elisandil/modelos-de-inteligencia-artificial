@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good afternoon", "What's up", "Howdy"],
+      "responses": ["Hello!", "Hi there!", "Hey, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later", "See you later", "Farewell"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Much appreciated"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "Who are you", "Tell me your name", "What should I call you"],
+      "responses": ["I'm a chatbot built with spaCy and scikit-learn.", "You can call me Bot."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me", "What can you do"],
+      "responses": ["I can answer greetings, farewells and basic questions. Ask me something!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours", "When are you open", "Opening hours", "Are you open now"],
+      "responses": ["We're open Monday to Friday, 9am to 6pm."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located", "What is your address", "How do I get there", "Location"],
+      "responses": ["We're located at 123 Main Street."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What is your age", "When were you born"],
+      "responses": ["I don't have an age, I'm software."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What is the weather", "Is it going to rain", "Weather today", "How is the weather"],
+      "responses": ["I can't check the weather yet, but you can try a weather app."]
+    }
+  ]
+}
